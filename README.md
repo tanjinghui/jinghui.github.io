@@ -1,3 +1,5 @@
-# jinghui.github.io
+# TAN Jing Hui Digital Portfolio
 
-Welcome to my digital portfolio!:)
+Hello:) 
+
+This digital portfolio is my experiences in a nutshell.
