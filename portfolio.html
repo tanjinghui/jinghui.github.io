@@ -1,39 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio | Tan Jing Hui</title>
-<link rel="stylesheet" href="assets/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Tan Jing Hui</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Crimson+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
-<h1>Portfolio</h1>
-<nav>
-<a href="index.html">Home</a>
-<a href="portfolio.html">Portfolio</a>
-<a href="volunteer.html">Volunteer</a>
-<a href="contact.html">Contact</a>
-</nav>
-</header>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Tan Jing Hui</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                <li><a href="volunteer.html" class="nav-link">Volunteer</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
 
-<main>
-<section>
-<h2>Projects</h2>
-<p>
-This section highlights selected academic and personal projects completed between
-2022 and 2025, focusing on cloud infrastructure, system design, and application development.
-</p>
-<ul>
-<li>Cloud-based Application Deployment</li>
-<li>Business Process Automation Project</li>
-<li>Web Application Development</li>
-</ul>
-</section>
-</main>
+    <!-- Portfolio Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">My Portfolio</h1>
+            <p class="page-subtitle">A showcase of my technical projects and achievements</p>
+        </div>
+    </section>
 
-<footer>
-<p>© Tan Jing Hui 2025</p>
-</footer>
+    <!-- Projects Section -->
+    <section class="portfolio-content">
+        <div class="container">
+            <div class="projects-showcase">
+                <div class="project-item">
+                    <div class="project-image-large">
+                        <img src="https://tanjinghui9.wordpress.com/wp-content/uploads/2023/12/project-2_aws-project-1.jpg" alt="AWS Cloud Infrastructure Project">
+                    </div>
+                    <div class="project-details">
+                        <h3>AWS Cloud Infrastructure</h3>
+                        <p>Comprehensive cloud deployment utilizing AWS services including EC2, S3, and VPC configurations for scalable infrastructure.</p>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-image-large">
+                        <img src="https://tanjinghui9.wordpress.com/wp-content/uploads/2023/12/project-2_aws-proj_website-accessible-1.jpg" alt="AWS Accessible Website">
+                    </div>
+                    <div class="project-details">
+                        <h3>Accessible Web Application</h3>
+                        <p>Developed and deployed a fully accessible website on AWS infrastructure, implementing best practices for web accessibility and cloud hosting.</p>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-image-large">
+                        <img src="https://tanjinghui9.wordpress.com/wp-content/uploads/2023/12/project-3__l6_21_tan-jing-hui_221385a_proj1_computer_project-4-2.jpg" alt="Network Configuration Project">
+                    </div>
+                    <div class="project-details">
+                        <h3>Network Infrastructure Design</h3>
+                        <p>Designed and implemented enterprise-level network infrastructure with emphasis on security and performance optimization.</p>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-image-large">
+                        <img src="https://tanjinghui9.wordpress.com/wp-content/uploads/2023/12/project-3__l6_21_tan-jing-hui_221385a_proj1_computer_project-2-2.jpg" alt="System Administration">
+                    </div>
+                    <div class="project-details">
+                        <h3>System Administration</h3>
+                        <p>Advanced system administration project focusing on server configuration, security hardening, and automated deployment.</p>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-image-large">
+                        <img src="https://tanjinghui9.wordpress.com/wp-content/uploads/2023/12/project-3__l6_21_tan-jing-hui_221385a_proj1_computer_project-1-2.jpg" alt="Computer Project 1">
+                    </div>
+                    <div class="project-details">
+                        <h3>Database Management System</h3>
+                        <p>Comprehensive database design and implementation using SQL, including data modeling and query optimization.</p>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-image-large">
+                        <img src="https://tanjinghui9.wordpress.com/wp-content/uploads/2023/12/project-3__l6_21_tan-jing-hui_221385a_proj1_computer_project-3-2.jpg" alt="Computer Project 3">
+                    </div>
+                    <div class="project-details">
+                        <h3>Cybersecurity Implementation</h3>
+                        <p>Security-focused project implementing various cybersecurity protocols and best practices for infrastructure protection.</p>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-image-large">
+                        <img src="https://tanjinghui9.wordpress.com/wp-content/uploads/2023/12/project-1-1.jpg" alt="Web Development Project">
+                    </div>
+                    <div class="project-details">
+                        <h3>Full-Stack Web Development</h3>
+                        <p>End-to-end web application development using HTML, CSS, JavaScript, and PHP with database integration.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">Tan Jing Hui</h3>
+                    <p class="footer-tagline">Eager to Learn, Driven to Excel</p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Portfolio</h4>
+                        <ul>
+                            <li><a href="portfolio.html">Projects</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Volunteer</h4>
+                        <ul>
+                            <li><a href="volunteer.html">Volunteer Activities</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/tanjinghui" target="_blank">LinkedIn</a></li>
+                            <li><a href="mailto:tanjinghui89@gmail.com">Email</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; Jing Hui's Portfolio 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
